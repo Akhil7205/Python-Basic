@@ -75,16 +75,29 @@
 
 # Q9)✅ Reverse a Number:
 # Take a number as input and print its reverse. (e.g., 123 → 321).
-# n='12387'
-# i=len(n)
-# a=0
-# while i>0:
-#     a=n[i]
-#     i-=i
+
+# num=input("enterno:")
+# i=len(num)
+# while(i>0):
+#     i-=1
+#     a=num[i]
 #     print(a)
 
-ab=8981
-asd=ab%10
-print(asd)
-# while(ahs>0):
-#     print()
+# Q10)Factorial Calculation:
+# Take a number as input and calculate its factorial using a while loop.
+
+# num=int(input("enterno:"))
+# i=num
+# while(i>1):
+#     i-=1
+#     num=num*i
+# print(num)
+
+# Q11) Sum of Digits:
+# Take a number as input and find the sum of its digits. (e.g., 123 → 1+2+3 = 6).
+no=input('enter no:')
+i=0
+print(i)
+while i<len(no):
+    print(f'{no[i]}')
+    i+=1
