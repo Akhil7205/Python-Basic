@@ -100,4 +100,7 @@ i=0
 print(i)
 while i<len(no):
     print(f'{no[i]}')
+    a=no[i]
+    b=print(no[i]+no[i+1])
     i+=1
+print(a)

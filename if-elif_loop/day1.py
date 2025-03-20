@@ -118,25 +118,58 @@
 #     print('week password')
 
 
+# nested ifelese
+# find which is greater n1,n2,n3
+# n1=int(input('enter no n1:'))
+# n2=int(input('enter no n2:'))
+# n3=int(input('enter no n3:'))
 
-# statement=input("enter name: ")
+# if(n1>n2):
+#     if(n1>n3):
+#         print('n1 is greater no')
+#     else:
+#         print('n3 is grater no')
+# else:
+#     if(n2>n3):
+#         print('n2 is greater no')
+#     else:
+#         print('n3 is greater no')
 
-# a=(statement.isalpha() or statement.isspace())
-# print(a)
-# statement = input("Enter name: ")
-# for char in statement:
-#     a = (char.isalpha() or char.isspace())
-# print(a)
 
-import datetime
 
-# from datetime import datetime
+# num=int(input('enter no:'))
 
-# now=datetime.now()
-# print(now)
-# time=lambda x:x.time()
-# hr=now.hour
-# print(hr)
-import time
-a=time.strftime('%c')
-print(a)
+# if(num%5==0 or num %3==0):
+#     if(num%15==0):
+#         print('no is divisble with 15')
+#     else:
+#         print('no is not div by 15 but dvi by 5 or 3')
+# else:
+#     print("no is not div 3, 5  and 15")
+
+
+# match 
+
+# n1=int(input('enter no n1:'))
+# n2=int(input('enter no n2:'))
+# operator=(input('operation to perform:'))
+
+# match operator:
+#         case "+":
+#                 print('sum is',n1+n2)
+#         case "-":
+#                 print('sub is',n1-n2)
+#         case "//":
+#                 print('floor div is',n1//n2)
+#         case "**":
+#                 print('power is',n1**n2)
+
+
+# ternary operator 
+
+
+
+no=int(input('enter no:'))
+
+num= f'{no} is even' if no%2==0 else f' {no} is ood'
+print(num)
